@@ -7,6 +7,6 @@ public class CloneZone : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Instantiate(other.gameObject);
+        Instantiate(other.Object);
     }
 }

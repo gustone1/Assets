@@ -7,6 +7,6 @@ public class KillZone : MonoBehaviour
     void OnTriggerEnter(Collider other) {
         //Debug.Break();
         //Debug.Log(other);
-        Destroy(other.gameObject);
+        Destroy(other.Object);
     }
 }
